@@ -36,6 +36,10 @@ liveTemplate中加了TODO：为了防止忘记在对应的地方加上reducer，
 
 点击设置File，再点击Export Setting，点击Select none，再选择只勾选Live templates，点ok导出jar包
 
+### VSCose
+
+在VSCode中选择Code->首选项->用户代码片段, 选择dart.json 把代码片段拷贝进这个文件即可。
+
 ### 更新
 - 在相应的文件夹里提新的jar
 - pr里必要的描述
