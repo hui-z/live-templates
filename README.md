@@ -27,14 +27,26 @@ liveTemplate中加了TODO：为了防止忘记在对应的地方加上reducer，
 
 ### 导入
 
+#### IDEA
+
 可以通过拷贝xml配置文件和导入jar包来导入别人定义好的Live Templates设置
 
 - XML：替换～/Library/Preferences/IDEA(AndroidStidio3.1/templates/Flutter.xml
 - jar：点击设置File，再点击Import Setting，勾选Live templates，点确定，重启IDEA，生效配置
 
+#### VSCode
+
+在VSCode中选择Code->首选项->用户代码片段, 选择dart.json 把代码片段拷贝进这个文件即可。
+
 ### 导出
 
+#### IDEA
+
 点击设置File，再点击Export Setting，点击Select none，再选择只勾选Live templates，点ok导出jar包
+
+#### VSCode
+
+在VSCode中选择Code->首选项->用户代码片段, 修改dart.json 把文件内容上传。
 
 ### 更新
 - 在相应的文件夹里提新的jar
